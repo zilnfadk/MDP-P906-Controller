@@ -401,7 +401,7 @@ class MDPMainwindow(QtWidgets.QMainWindow, FramelessWindow):  # QtWidgets.QMainW
         self.get_preset("1")
         self.close_state_ui()
         self.load_battery_model(BAT_EXAMPLE_PATH)
-        center_window(self, 920, 800)
+        center_window(self, 920, 700)
         self.ui.progressBarVoltage.setMaximum(1000)
         self.ui.progressBarCurrent.setMaximum(1000)
         self._last_state_change_t = time.perf_counter()
